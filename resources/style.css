@@ -1,0 +1,176 @@
+
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+ /* border : 2px solid red;*/
+}
+
+hr {
+  margin: 1em 0%;
+  margin-bottom: 2em;
+}
+
+
+li {
+    line-height:200%;
+}
+
+@media screen {
+  :root {
+    --title-color: #f7f0f0;
+    --background-color: #484349;
+  }
+
+  #printResumeBtn{
+    text-align : center;
+  }
+
+abbr {
+        border:none;
+        color:#03B;
+        cursor:help;
+}
+
+sup {
+    color:#555;
+}
+
+  .centerpane {
+    border: 1px inset var(--title-color);
+  
+  
+    margin: 3.5vh 5vw;
+
+
+    padding: 50px;
+  
+    color: #000;
+    background : #f2ece3;
+    
+
+  }
+
+.centerBox {
+    margin:auto;
+    width : 70%;
+    padding : 5px;
+    text-align: center;
+
+    background-color : #f2ece3;
+
+    font-size : 250%;
+}
+
+  #bottomsmalltext {
+    color: #FEE;
+    margin : 10px;
+  }
+  #headerbox {
+  
+      background-image : url("https://images.pexels.com/photos/157039/pexels-photo-157039.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+      background-color : #000;
+
+      height: 100vh;
+
+      background-position: bottom center;
+
+      background-size : cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+
+      padding: 15vh 5vh;
+
+      /*height : 15vh;*/
+
+
+      position: static;
+      /*font-size: 300%;*/
+
+      box-shadow: 0px 10px 10px #111;
+
+      page-break-after: always;
+  }
+  .headertext {
+
+    font-family: Baloo;
+    text-transform: uppercase;
+    text-align: center;
+
+    font-size: 300%;
+    color: #FDC;
+    background-color: rgba(0,0,0,.8);
+
+  }
+  #rightadressbar{
+    float: right;
+    clear: both;
+    display:block;
+  }
+}
+
+@media print {
+  
+  li::before {
+  
+    content: "■ ";
+    color: #000;
+  
+  }
+  
+  #printResumeBtn{
+    display:none;
+  }
+
+
+  #rightadressbar{
+    display:block;
+    text-align : center;
+  }
+
+  .headertext {
+
+    font-family: "Baloo";
+    text-transform: uppercase;
+    text-align: center;
+
+    font-size: 300%;
+    color: #000;
+    background-color: #FFF;
+
+  }
+  .centerpane {
+
+    color: #000;
+    background : #FFF;
+  }
+  :root {
+    --title-color: #f7f0f0;
+    --background-color: #FFF;
+  }
+
+  #bottomsmalltext {
+    color: #000;
+    margin : 10px;
+  }
+}
+.center {
+  margin-left : auto;
+  margin-right: auto;
+  width : 50%;
+}
+
+h2 {
+  text-align:center;
+  font-family: arial;
+
+
+  font-size: 300%;
+  font-family: 'Sue Ellen Francisco', cursive;
+  color: #000;
+}
+
+body {
+  background : var(--background-color);
+}
