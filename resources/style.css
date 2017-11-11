@@ -5,6 +5,9 @@
 
   box-sizing: border-box;
  /* border : 2px solid red;*/
+
+
+  font-family:"times";
 }
 
 hr {
@@ -16,6 +19,10 @@ hr {
 li {
     line-height:200%;
 }
+
+ul > li {
+            margin-left: 20px;
+    }
 
 @media screen {
   :root {
@@ -51,6 +58,14 @@ sup {
     
 
   }
+
+img {
+    display:block;
+    width  : 100%;
+    height : auto;
+
+}
+
 
 .centerBox {
     margin:auto;
@@ -112,6 +127,17 @@ sup {
 
 @media print {
   
+
+  #photos {
+  page-break-before: always;
+  }
+
+  img {
+  width : 8.5in;
+  
+  
+  }
+
   li::before {
   
     content: "■ ";
@@ -167,7 +193,7 @@ h2 {
 
 
   font-size: 300%;
-  font-family: 'Sue Ellen Francisco', cursive;
+  font-family: "Times", cursive;
   color: #000;
 }
 
