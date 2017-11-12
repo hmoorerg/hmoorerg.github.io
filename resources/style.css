@@ -54,7 +54,7 @@ sup {
     padding: 50px;
   
     color: #000;
-    background : #f2ece3;
+    background : #FFF;
     
 
   }
@@ -69,11 +69,11 @@ img {
 
 .centerBox {
     margin:auto;
-    width : 70%;
+    margin: 3.5vh 5vw;
     padding : 5px;
     text-align: center;
 
-    background-color : #f2ece3;
+    background-color : #FFF;
 
     font-size : 250%;
 }
@@ -84,7 +84,7 @@ img {
   }
   #headerbox {
   
-      background-image : url("https://static.pexels.com/photos/631989/pexels-photo-631989.jpeg");
+      background-image : url("https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
       background-color : #000;
 
       height: 100vh;
@@ -109,12 +109,12 @@ img {
   }
   .headertext {
 
-    font-family: Baloo;
+    font-family: times;
     text-transform: uppercase;
     text-align: center;
 
     font-size: 300%;
-    color: #FDC;
+    color: #FFF;
     background-color: rgba(0,0,0,.8);
 
   }
@@ -157,7 +157,7 @@ img {
 
   .headertext {
 
-    font-family: "Baloo";
+    font-family: "times";
     text-transform: uppercase;
     text-align: center;
 
