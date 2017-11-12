@@ -180,7 +180,18 @@ img {
     color: #000;
     margin : 10px;
   }
+
+  .nobreak {
+    page-break-inside: avoid;
+    
+  }
+
+
+
 }
+
+
+
 .center {
   margin-left : auto;
   margin-right: auto;
