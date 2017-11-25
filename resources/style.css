@@ -92,7 +92,7 @@ img {
       background-position: top center;
 
       background-size : cover;
-      background-attachment: fixed;
+      background-attachment: scroll;
       background-repeat: no-repeat;
 
       padding: 15vh 5vh;
@@ -115,7 +115,7 @@ img {
 
     font-size: 300%;
     color: #FFF;
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0,0,0,1);
 
   }
   #rightadressbar{
