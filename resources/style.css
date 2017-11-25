@@ -89,7 +89,7 @@ img {
 
       height: 100vh;
 
-      background-position: bottom center;
+      background-position: top center;
 
       background-size : cover;
       background-attachment: fixed;
