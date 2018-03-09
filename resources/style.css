@@ -17,12 +17,18 @@ hr {
 
 
 li {
-    line-height:200%;
+    line-height:150%;
 }
 
 ul > li {
             margin-left: 20px;
     }
+
+hr {
+    margin-top :0.5em;
+    margin-bottom:1em;
+
+}
 
 @media screen {
   :root {
@@ -127,6 +133,9 @@ img {
 
 @media print {
   
+  .printInvisible{
+    display:none;
+  }
 
   #photos {
   page-break-before: always;
@@ -138,10 +147,8 @@ img {
   
   }
 
-  li::before {
-  
-    content: "■ ";
-    color: #000;
+  li {
+    line-height:100%;
   
   }
   
@@ -161,7 +168,7 @@ img {
     text-transform: uppercase;
     text-align: center;
 
-    font-size: 300%;
+    font-size: 150%;
     color: #000;
     background-color: #FFF;
 
