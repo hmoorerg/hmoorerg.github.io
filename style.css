@@ -39,15 +39,6 @@ header p a:hover {
     text-decoration: underline;
 }
 
-/* About Section */
-.about {
-    margin: 2rem auto;
-    padding: var(--padding);
-    background: var(--bg-color);
-    box-shadow: 0 0.4rem 0.8rem var(--shadow-color);
-    border-radius: var(--border-radius);
-}
-
 /* Resume Section */
 .resume {
     margin: 2rem auto;
