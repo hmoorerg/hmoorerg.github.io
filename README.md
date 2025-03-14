@@ -1,4 +1,4 @@
 # hmoorerg.github.io
-Github copy of my resume website
+Github copy of my resume website.
 
-Built from scratch using HTML/CSS
+Built from scratch using HTML/CSS.
