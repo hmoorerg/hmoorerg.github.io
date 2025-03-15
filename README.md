@@ -1,4 +1,4 @@
 # HenryMoore.us
-Github copy of my resume website.
+My minimal resume website.
 
 Built from scratch using HTML/CSS.
